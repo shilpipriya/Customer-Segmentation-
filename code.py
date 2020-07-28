@@ -972,4 +972,4 @@ plt.xlabel("Algorithms")
 sns.barplot(x=list(accuracy.keys()), y=list(accuracy.values()), palette=colors)
 plt.show()
 
-#Random forest classifier performs better in terms of precision!!
+#SVM performs better than other models with an accuracy of 91.55%!!
