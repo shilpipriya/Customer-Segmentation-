@@ -406,7 +406,7 @@ for n_clusters in range(3,10):
 #I'll choose to seperate the dataset into 5 clusters 
 # In order to ensure a good classification at every run of the 
 #notebook, I iterate untill we obtain the best possible silhouette 
-#score, which is, in the present case, around 0.15:
+#score, which is, in the present case:
 
 n_clusters = 5
 silhouette_avg = -1
